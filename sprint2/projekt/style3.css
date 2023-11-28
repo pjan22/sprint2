@@ -1,0 +1,1899 @@
+body{
+    color: white;
+    font-family: Helvetica;
+    background-color: #111928;
+    width: 1920px;
+    margin-left:240px ;
+    margin-right: 240px;
+    box-sizing: border-box;
+
+
+
+}
+.header{
+    width: 1440px;
+    height: 65px;;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.navSection{
+    color: white;
+    gap: 64px;
+    height: 65px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navpart{
+    width: 920px;
+    height: 24px;
+    gap:32px;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+}
+.navpart image {
+    display:none;
+}
+
+.navElement{
+    width: 58px;
+    height: 36px;
+    font-size:20px; 
+    font-weight: bold;
+}
+.navElement1{
+    font-size: 16px;
+    height:24px ;   
+    font-weight: 500;
+    text-align: center;
+}
+.navElement2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 14px;
+    column-gap: 16px;
+    height:21px;
+
+}
+.navbutton{
+    position:relative;
+    border: #1b57d8 ;
+    background-color:#1a54d1 ;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height:21px;
+    left:64px;
+    gap: 64px;
+    bottom: 30px;
+}
+.earthSection{
+    display: flex;
+    width: 1440px;
+    padding: 96px 0px;
+    margin-top: 96px;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-direction:row;
+    align-items: flex-start;
+    gap:80px;
+   
+}
+.earthelement{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 576px;
+    height: 434px;
+    
+}
+.earthelement h1{
+    font-size:36px;
+    width: 640px;
+    height: 90px;
+    display: flex;
+    align-self: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF; 
+ }
+
+.textbutton{
+    padding: 12px 20px;
+    width: 182px;
+    height: 48px;
+    background-color:#1A56DB ;
+    color:white;
+    display: flex;
+    border-radius: 12px;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1A56DB;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.buttonelement{
+    padding: 12px 20px;
+    width: 182px;
+    height: 48px;
+    background-color: #1F2A37 ;
+    color:white;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4B5563;
+    font-size: 12px;
+    gap:8px;
+    
+}
+
+.buttonsection{
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.earthelement p{
+    font-size:18px;
+    width: 540px;
+    height: 90px;
+    color: #9CA3AF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+.sponsors {
+   color:#6B7280;
+   font-size:16px;
+   margin-top:32px;
+   
+}
+.sponsorsElement{
+    display: flex;
+    width: 87px;
+    height: 48px;
+    align-self: flex-start;
+    gap:40px;
+    margin-top: 12px;
+} 
+.sponsorsElement img{
+    width:  106px;
+    height: 48px;
+    align-self: stretch;  
+}
+.numberSection{
+    width: 1280px;
+    height: 117px;
+    padding: 24px 16px;
+     margin-left: 0px;
+    margin-right: 0px;
+   
+
+}
+.sponsorsimg{
+    display: flex;
+    width: 576px;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.nmchild{
+    padding: 24px 16px;
+    background-color: #1F2A37;
+    border: #374151;
+    border: 2px;
+    border-radius: 8px;
+    width: 992px;
+    height: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+    
+   
+}
+.numberElement b{
+    color:#FFFFFF;
+    font-weight: bold;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center; 
+}
+.numberElement p{
+    color: #9CA3AF;;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    column-rule-color: #374151;
+}
+.textSection{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1348px;
+    padding: 96px 0px;
+    margin-right: 80px;
+    margin-left: 80px;
+    gap:64px;
+}
+.textbox1{
+    display: flex;
+    flex-direction:row ;
+    height: 406,78px;
+    width: 1280px;
+     gap:80px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+.textbox1 img{
+    width: 540.458px;
+    height: 406.779px;
+    gap: 81px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}
+.elementtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 260px;
+    gap:16px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+
+}
+.textElement1{
+    font-size:36px;
+    width: 640px;
+    height: 90px;
+    display: flex;
+    align-self: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}      
+.elementtext p{
+    font-size:18px;
+    width: 640px;
+    height: 81px;
+    color: #9CA3AF;
+    align-self: stretch;
+}
+.buttonsection{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap:16px
+
+}
+
+.textbox2{
+    width: 1280px;
+    height: 407;
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+
+}
+.textchild{
+    display: flex;
+    flex-direction: column;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    gap:16px;
+}
+.textElement2 {
+    font-size:36px;
+    width: 640px;
+    height: 90px;
+    display: flex;
+    align-self: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+.textchild p{
+    font-size:18px;
+    width: 640px;
+    height: 81px;
+    color: #9CA3AF;
+    align-self: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.textbox2 button{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:16px;
+    
+}
+.textbox2 img{
+    width: 540.458px;
+    height: 406.779px;
+    gap: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.textbox3{
+    width: 1280px;
+    height: 407px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap:80px;
+    
+}
+.box3child{
+    width: 640px;
+    height: 260px;
+    gap:24px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin-top: 73px;
+    margin-bottom: 73px;
+}
+.textElement3 {
+    font-size:36px;
+    width: 640px;
+    height: 90px;
+    display: flex;
+    align-self: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+.box3child p{
+    font-size:18px;
+    width: 640px;
+    height: 81px;
+    color: #9CA3AF;
+    align-self: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box3child img{
+    width: 540.458px;
+    height: 406.779px;
+    gap: 81px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    
+}
+.textelement3 button{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    gap:16px;
+}
+.donorSection{
+    width: 1440px ;
+    height: 877px;
+    padding: 96px 0px;
+    background-color:#1F2A37;
+    gap: 64px;
+    flex-direction: column;
+    display: flex;
+
+}
+.donorelement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 161px;
+    padding-bottom: 64px;
+}
+.donorelement h3{
+    font-size: 36px;
+    font-style: normal;
+    align-self:center;
+    text-align: center;
+    width: 672px;
+    height: 45px;
+    font-weight: 800;
+}
+.donorelement p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    color:#9CA3AF ;
+    width: 672px;
+    height: 60px;
+    align-self: center;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+}
+.donorelement a{
+    margin-left: 0px;
+    margin-right: 0px;
+    color:#216cee;
+    height:24px ;
+    width: 158px;
+    text-align: center;
+    font-size: 16px;
+    align-self: center;
+
+}
+.logoSection2{
+    width: 1280px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap:32px;
+}
+.logochild{
+    width: 1280px;
+    height: 132px;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    
+}
+.logoelement{
+    width: 320px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-shrink: 0;
+}
+
+.logoelement p{
+    height: 20px;
+    width: 142px;
+    color: #6B7280;
+    font-size: 16px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.logoelement button{
+    width: 122px;
+    height: 34px;
+    padding: 8px 12px;
+    gap: 8px;
+    background-color: #1F2A37;
+    color: #4B5563;
+    border-radius: 8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.eventSection{
+    width: 1440px;
+    height: 997px; 
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+   
+}
+.eventElement{
+    width: 1280px;
+    height: 805px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:32px;
+  
+}
+.events{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    width: 676px;
+    height:121px ;
+    gap:16px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.events h5{
+    width: 640px;
+    height: 45px;
+    font-size: 36px;
+    text-align: center;
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+.events p{
+    color:#9CA3AF;
+    font-size: 20px;
+    width: 640px;
+    height: 60px;
+    text-align: center;
+    align-self: center;
+  
+}
+.events2{
+    height: 593px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap:48px;
+}
+
+.shareelement {
+    padding: 10px 20px;
+    width: 210px;
+    height: 48px;
+    background-color: #1F2A37;
+    color:#9CA3AF;
+    border: 2px solid #4B5563;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    display: inline;
+    gap:16px;
+    align-items: center;
+}
+.eventscontainer{
+    width: 616px;
+    height: 593px;
+    padding: 32px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color:#1f2a37;
+    border-radius: 8px;
+
+}
+.eventscontainer img{
+    width: 552px;
+    height: 288px;
+    align-self: stretch;
+    border-radius:8px;
+}
+.eventparagraph{
+    width: 552px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.eventparagraph div{
+    width: 552px;
+    height:48px ;
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+
+}
+
+.eventparagraph b{
+    width: 86px;
+    height: 27px;
+    font-size: 18px;
+    align-self: stretch;  
+    line-height: 21px;
+}
+
+.eventparagraph span {
+    width: 80px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    color:#9CA3AF ;
+    align-self: stretch;
+
+}
+.eventparagraph p{
+    width: 116.67px;
+    height: 21px;
+    font-size: 14px;
+    color:#9CA3AF ;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.progress1::-webkit-progress-bar {
+    width: 441.6px;
+    height: 10px;
+    border:1px solid #4B5563;
+    background-color: #4B5563;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    display: block;
+
+}
+.progress2 :-webkit-progress-bar {
+    width: 441.6px;
+    height: 10px;
+   
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    background-color:  #4B5563;
+    border:1px solid #4B5563;
+    
+
+}
+.eventscontainer h5{
+    width: 552px;
+    height: 23px;
+    font-size:18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #9CA3AF;
+    font-size: 16px;
+    height:72px ;
+    align-self: stretch;
+    gap: 8px;
+}
+.eventSection a{
+    color: #3F83F8;
+    font-size: 18px;
+    width:247px; 
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 64px;
+}
+.newsSection{
+    width: 1440px;
+    height: 825px;
+    padding: 96px 0px;
+    background: #1F2A37;
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+}
+.newsheader{
+    width: 1280px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:16px;
+}
+.newsheader h3{
+    width:576px ;
+    height: 45px;
+    font-size:36px;
+    text-align:center;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-bottom: 0px;
+
+}
+.newsheader p{
+    width:576px; 
+    height:60px;
+    font-size: 20px;
+    text-align: center;
+    color:#9CA3AF;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.infonews{
+    display: flex;
+    column-gap: 32px;
+    margin-left:80px;
+    margin-right: 80px;
+
+
+}
+.infocolumn1 {
+    height: 208px;
+    width:383px ;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+
+}
+.infocolumn1 img{ 
+    height: 192px;
+    align-items: flex-start;
+    gap:20px;
+}
+.infocolumn1 span{
+    font-size: 24px;
+    align-items:  stretch;
+    font-weight: 700;
+    height: 60px;
+ 
+}
+.infocolumn1 div{
+    font-size:16px;
+    color: gray/400;
+    align-self: stretch;
+    width: 383px ;
+    height: 90px;
+    
+}
+.infocolumn1 a{
+    color:#3F83F8;
+    font-size: 16px;
+    gap:16px;
+    width:103px;
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+
+}
+.columna{
+    align-self: center;
+    width: 16px;
+    
+}
+
+.info2{
+    width: 383px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:32px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.column1{
+    display: flex;
+    flex-direction:column;
+    gap:16px;
+    height: 383px;
+    align-items: flex-start;
+}
+.column1 span{
+    font-size: 24px;
+     align-self: stretch;
+    height: 60px;
+    gap:16px;
+
+}
+.column1 div{
+    font-size: 16px;
+    color: #9CA3AF;
+    align-self: stretch;
+    width: 383px ;
+    height: 60px;
+    gap:16px;
+}
+
+.column1 a{
+    font-size: 16px;
+    color: #3F83F8;
+    gap:16px;
+    height:20px;
+}
+.column2{
+    display: flex;
+    flex-direction:column;
+    gap:32px;
+    height: 184px;
+    width: 383px;
+    align-items: flex-start;
+}
+
+.column2 span{
+    font-size: 24px;
+   align-self: stretch;
+    height: 60px;
+    gap:16px;
+
+}
+.column2 div{
+    font-size: 16px;
+    color: #9CA3AF;
+    align-self: stretch;
+    width: 383px ;
+    height: 72px;
+    gap:16px;
+}
+
+.column2 a{
+    font-size:16px ;
+    color: #3F83F8;
+    gap:16px;}
+
+
+.column3{
+    display: flex;
+    flex-direction:column;
+    gap:16px;
+    height: 184px;
+    width: 383px;
+    align-items: flex-start;
+}
+    
+.column3 span{
+    font-size: 24px;
+    align-self: stretch;
+    height: 60px;
+    gap:16px;
+    
+}
+.column3 div{
+    font-size: 16px;
+    color: #9CA3AF;
+    align-self: stretch;
+    width: 383px ;
+    height: 72px;
+    gap:16px;
+}
+    
+.column3 a{
+    font-size: 16px;
+    color: #3F83F8;
+    gap:16px;
+}
+    
+.info3 {
+    display: flex;
+    gap:32px;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 183px;
+    width: 383px;
+    align-self: flex-end;
+}
+
+.contactSection{
+    display: flex;
+    width: 1440px;
+    height: 855px;
+    padding: 96px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+.contact h5{
+    font-size: 36px;
+    text-align: center;
+    width: 672px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.contact p{
+    font-size:20px ;
+    color:#9CA3AF;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    width: 672px;
+}
+
+.formcontact{
+    width: 640px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.contactform1{
+    width: 640px;
+    height:81px;
+    display:flex;
+    flex-direction:column;
+    font-size:14px;
+    gap:8px;
+}
+   
+.contactform1 input[type=email]{
+    height: 52px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #4B5563;
+    background: #374151;
+}
+.contactform2{
+    width: 640px;
+    height:81px;
+    display:flex;
+    flex-direction:column;
+    font-size:14px;
+    gap:8px;
+
+}
+.contactform2 input[type=text]{
+    width: 640px;
+    height: 52px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #4B5563;
+    background: #374151;
+    box-sizing: border-box;
+
+}
+.contactform3{
+    width: 640px;
+    height:217px;
+    display:flex;
+    flex-direction:column;
+    font-size:14px;
+    gap:8px;
+}
+.contactform3 textarea{
+    width: 640px;
+    height: 162px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: 1px solid #4B5563;
+    background: #374151;
+    box-sizing: border-box;
+    color:#FFFFFF;
+    gap:24px;
+}
+
+.footer{
+    height: 413px;
+    width:1440px;
+    padding-top: 96px;
+    padding-bottom: 64px;
+    background:  #1F2A37;
+    border-top: #374151;
+    align-content:space-around
+
+}
+.columnsection{
+    height: 221px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap:100px;
+
+}
+.columnelement{
+    height:213px;
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.columnelement p{
+    font-size: 14px;
+    font-weight: 600;
+    height: 21px;
+    width: 176px;
+}
+.columnelement div{
+    font-size: 16px;
+    color:#9CA3AF ;
+    align-self: stretch;
+    height:24px ;
+
+}
+
+.rightsfooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    color:#9CA3AF;
+    font-size: 16px;
+    height: 68px;
+    margin: 64px;
+    
+}
+.rightsfooter p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap:20px;
+    height: 24px;
+
+}
+.rightsfooter div{
+    align-self:center ;
+    height:24px ;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap:20px;
+}
+/*reguły CSS dla szerokości okna równej bądź niższej niz 500px*/
+@media(max-width:500px){
+
+.body{
+    width: 475px;
+    margin-left:0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    padding: 24px 16px 0px 16px;
+    flex-direction: column; 
+    align-items: flex-start;
+    align-self: stretch;
+    height: 60px;
+    width: 375px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.navSection{
+    width: 343px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch; 
+    
+}
+.navpart{
+    width: 343px;
+    height: 36px;
+    justify-content: space-between;
+}
+#image{
+    width: 33px;
+    height: 33px;
+    align-items: flex-end;
+}
+
+.navElement{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 58px;
+    height: 36px;
+}
+.navElement2, .navElement1{
+    display: none;
+}
+.earthSection{
+    display: flex;
+    width: 375px;
+    height: 638px;
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.earthelement{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    height: 462px;
+    width: 343px;
+
+}
+.earthelement h1{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    height: 90px;
+    width: 343px;
+}
+.earthelement p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color:#9CA3AF;
+    height:96px;
+    width: 343px;
+}
+.buttonsection{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    flex-direction: column;
+    height: 48px;
+    width: 343px;
+    margin-top: 0px;
+
+}
+.buttonelement{
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    height: 48px;
+
+}
+br{
+    display: none;
+}
+.textbutton{
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    height: 48px;
+}
+.sponsors{
+    display: none;
+}
+hr{
+    display: none;}
+
+.sponsorsElement{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    height:32px ;
+    width: 343px;
+}
+.sponsorsElement img{
+   width: 58px;
+   height: 32px;
+  margin-top: 16px;
+  
+}
+.sponsorsimg{
+    display: flex;
+    height: 176px;
+    width: 343px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.numberSection{
+    display: flex;
+    padding: 0px 16px 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    width: 375px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.nmchild{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    width: 343px;
+    height: 328px;
+}
+.numberElement{
+    height: 62px;
+    width: 311px;
+    align-items: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.numberElement b{
+    align-self: stretch;
+    color:#FFFFFF;
+    font-size:30px;
+   font-weight: 800;
+    text-align: center;
+    line-height: 37,5px;
+    height: 38px;
+}
+.numberElement p{
+    align-self: stretch;
+    font-size: 16px;
+    color:#9CA3AF;
+    font-weight: 400;
+    line-height: 24px;
+    height: 24px;
+}
+.textSection{
+    display: flex;
+    width: 375px;
+    padding: 0px 16px 32px 16px;
+    flex-direction: column;
+    gap: 32px;
+    height: 1229px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.textbox1 img{
+    display: none;
+
+}
+.textbox1{
+    width:343px ;
+    gap:24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+.elementtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    height: 365px;
+    width: 343px;
+    padding-top:0px;
+    justify-content:none ;
+}
+.textElement1{
+    align-self: stretch;
+    font-size:30px;
+    color: #FFFFFF;
+    height: 114px;
+    width:343px ;
+    margin-top: 50px;
+}
+.elementtext p{
+    align-self: stretch;
+    color:#9CA3AF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 343px;
+    height:162px;
+}
+.textbox2 img{
+    display: none;
+}
+.textbox2{
+    width:343px ;
+    height:403px ;
+    gap:24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;}
+
+.textchild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    height:365px;
+    width: 343px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.textElement2{
+    align-self: stretch;
+    font-size:30px;
+    color: #FFFFFF;
+    height: 114px;
+    width: 343px;
+}
+.textchild p{
+    align-self: stretch;
+    color:#9CA3AF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    height:162px ;
+    width: 343px;
+}
+.box3child {
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 365px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.textbox3 img{
+    display: none;
+}
+.textElement3{
+    height: 152px;
+    font-size:30px;
+    line-height: 37.5px;
+    align-self: stretch;
+    width: 343px;
+}
+.box3child p{
+    color: #9CA3AF;
+    font-size:18px;
+    font-weight: 400;
+    align-self: stretch;
+    line-height: 27px;
+    height: 162px;
+    width: 343px;
+    
+}
+.textbox3{
+    width:343px ;
+    height:403px ;
+    gap:24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:0px;
+    align-self:stretch;
+    align-items: center;
+
+
+}
+.donorSection{
+    display: flex;
+    width: 375px;
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    height:1212px ;
+}
+.donorelement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    height: 204px;  
+    padding-bottom: 0px;
+    width: 343px;
+}
+.donorelement h3{
+   height: 76px;
+   align-self: stretch;
+   font-size:29px;
+   color: #FFFFFF; 
+   text-align: center;
+   width: 343px;
+   margin-bottom: 0px;
+   font-weight: 600;
+}
+.donorelement p{
+    height: 72px;   
+    width: 343px;
+    color: #9CA3AF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.logoSection2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    align-self: stretch;
+    height: 912px;
+    width:343px ;
+    
+}
+.logochild{
+    display: flex;
+    align-items: center;
+    align-self:stretch;
+    flex-wrap: wrap;
+    height: 288px;
+    width: 343px;
+    gap:24px;
+    column-gap:auto;
+
+}
+.logoelement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 132px;
+    width: 142px;
+}
+.logoelement img{
+    width: 80px;
+    height: 48px;
+}
+.logoelement button{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 34px;
+    width: 122px;
+}
+.logoelement button img{
+    width: 16px;
+    height: 16px;
+}
+.eventSection{
+    width: 375px;
+    height: 1707px;
+    padding:32px 16px;
+    gap:16px;
+    height: 1707px;
+    justify-content: none;
+}
+.eventElement{
+    display: flex;
+    width: 343px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    height: 1602px;
+    justify-content: flex-start;
+  
+}
+.events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    height: 126px;
+    width: 343px;
+}
+.events h5{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 37.5px;
+    height: 38px;
+    width: 343px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.events p{
+    font-size:16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 72px;
+    width: 343px;
+
+}
+.events2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width:343px ;
+    height:1458px;
+    justify-content: inherit;
+}
+.eventscontainer{
+    height: 721px;
+    width: 343px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.eventscontainer img{
+    height: 288px;
+    align-self: stretch;
+    width: 303px;
+    align-items: center;
+}
+.progress .progress2{
+    position: absolute;
+    bottom: 0px;
+    width: 242.4px;
+    height: 10px;
+}
+.eventparagraph{
+    width: 303px;
+    height:27px;
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    gap:8px;
+
+}
+.eventparagraph p{
+    width: 116,67px;
+    height: 18px;
+    font-size: 12px;
+
+}
+.eventscontainer h5{
+    height: 46px;
+    width: 303px;
+    font-size: 18px;     
+    font-weight: 700;
+    line-height:22.5px ;
+
+}
+.paragraph{
+    width: 303px;
+    height: 134px;
+    font-size: 16px;
+}
+
+.eventElement a{
+    height: 27px;
+    width: 227px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+.newsSection {
+    display: flex;
+    width: 375px;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 1402px;
+
+}   
+.newsheader{
+    height: 126px;
+    width: 343px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute
+}
+.newsheader h3{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    height: 38px;
+    width: 343px;
+    margin-top: 0px;
+
+
+}
+.newsheader p{
+    color:#9CA3AF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: 72px;
+    width: 343px;
+    align-self: stretch;
+}
+.infonews{
+    height: 1244px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    margin-top: 158px;
+
+}
+.infocolumn1{
+    width: 343px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;;
+
+}
+.infocolumn1 img{
+    height: 192px;
+    width: 343px;
+    align-items: flex-start;
+    
+}
+.infocolumn1 span{
+    height: 60px;
+    width: 343px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.infocolumn1 div{
+    height: 96px;
+    font-size: 16px;
+    width: 343px;
+    align-self: stretch;
+}
+.columna{
+  display: none;
+}
+.info2 {
+    width: 343px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    margin-top:208px;
+}
+.info3{
+    width: 343px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+ 
+}
+.column1{
+    gap: 14px;
+    align-self: stretch;
+    height: 180px;
+    width: 343px;
+}
+.column1 span{
+    height: 60px;
+    width: 343px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.column1 div{
+    height: 96px;
+    font-size: 16px;
+    align-self: stretch;
+    width: 343px;
+}
+.column2{
+    
+    gap: 14px;
+    align-self: stretch;
+    height: 180px;
+    width: 343px;
+
+}
+.column2 span{
+    height: 60px;
+    width: 343px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.column2 div{
+    height: 96px;
+    font-size: 16px;
+    align-self: stretch;
+    width: 343px;
+}
+
+.info2 .column3{
+    display: none;
+
+}
+.info3 .column3{
+    display: none;
+}
+.contactSection{
+    width: 375px;
+    height: 743px;
+    display: flex;
+    width: 375px;
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    width: 343px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+
+}
+.contact h5{
+    align-self: stretch;
+    height: 45px;
+    font-size: 30px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    width: 343px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contact p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9CA3AF;
+    height:72px ;
+    width: 343px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.formcontact{
+    width: 343px;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.contactform1{
+    height: 81px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    font-size:14px;
+}
+.contactform1 input[type=email]{
+    height: 52px;
+    padding: 14px 16px;
+    gap:10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+}
+.contactform2{
+    height: 81px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    font-size:14px;
+}
+.contactform2 input[type=text]{
+    width: 343px;
+    height: 52px;
+    padding: 14px 16px;
+    gap:10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+}
+.contactform3{
+    height: 222px;
+    width: 343px;
+    font-size: 14px;
+    gap:12px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+}
+.contactform3 textarea{
+    display: flex;
+    padding: 13px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    width: 343px;
+    height: 189px;
+
+}
+.footer{
+    display: flex;
+    width: 375px;
+    height: 1269px;
+    padding: 96px 0px 64px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap:64px;
+
+}
+.columnsection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    width: 343px;
+    height: 1073px;
+    padding: 32px 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.columnelement{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self:stretch;
+    font-size:14px ;
+
+}
+.columnelement div{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9CA3AF;
+
+}
+.rightsfooter{
+    height: 68px;
+    width: 343px;
+    font-size: 16px;
+    margin:0px;
+
+}
+}
